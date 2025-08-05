@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imagens/Logo.ico" type="image/x-icon">
+    <style>
+        .foto-redonda {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block; 
+            margin: auto; 
+        }
+        .container-thumbs {
+            display: flex;
+            justify-content: center;
+            gap: 15px; /* Adiciona um espaço entre as imagens */
+            margin-top: 20px;
+        }
+        .container-thumbs img:hover {
+    transform: scale(1.1); /* Aumenta a imagem em 10% */
+    transition: transform 0.3s ease; /* Adiciona uma animação suave */
+}
+        body{
+            background-color:rgb(124, 24, 24) ;
+        }
+    </style>
+    <title>Desconstrução</title>
+</head>
+<body>
+    <h1 style="color: #3c0404; text-align: center; font-weight: bold;">DEIXE DE SER BURRO!</h1>
+    
+    <img src="./imagens/Logo300x300.png" alt="Minha Foto" class="foto-redonda">
+    <div class="container-thumbs">
+    <a href="./video1.html"><img src="./imagens/homem.jpg" alt="Thumb homem"></a></a>
+    <a href="./video2.html"><img src="./imagens/ateu.jpg" alt="Thumb ateu"></a></a>
+    
+    </div>
+    <div class="container-thumbs">
+    
+    <a href="./video3.html"><img src="./imagens/ratos.jpg" alt="Thumb ratos"></a></a>
+    <a href="./video4.html"><img src="./imagens/comunismo.jpg" alt="Thumb comunismo"></a></a>
+    </div>
+    
+</body>
+</html>
